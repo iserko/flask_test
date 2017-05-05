@@ -1,0 +1,10 @@
+version: '2.1'
+services:
+  flask_test:
+    build:
+      context: .
+    command: ./bin/web
+    ports:
+    - 8061:8080
+    volumes:
+    - .:/home/user/code:rw
