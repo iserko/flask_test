@@ -13,4 +13,4 @@ ext:
     - "443:8080"
   environment:
     EMPIRE_X_LOAD_BALANCER_TYPE: "alb"
-    EMPIRE_X_EXPOSURE: "internet-facing"
+    EMPIRE_X_EXPOSURE: "public"
